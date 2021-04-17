@@ -1,0 +1,62 @@
+.container {
+	border: 5px solid black;
+    width: 700px;
+    display: block;
+    margin: auto;
+    padding: 0 40px 40px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1 {
+	text-align: center;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+tbody tr:hover {
+    background-color: #d8d8d8;
+    transition: 0.3s ease;
+}
+a {
+	text-decoration: none;
+}
+input[type='submit'], a.add-product {
+	display: block;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 8px 20px;
+    box-shadow: 3px 3px #000;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+a.show-product {
+	margin-left: 8px;
+}
+a.add-product {
+    margin-top: 30px;
+    background-color: green;
+    width: 130px;
+    text-align: center;
+    text-decoration: none;
+}
+a.add-product:hover {
+	transform: translateY(-0.3em);
+    box-shadow: 4px 4px rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+}
+.added, .updated {
+	color: green;
+	text-align: center;
+}
+.deleted {
+	color: red;
+	text-align: center;
+}

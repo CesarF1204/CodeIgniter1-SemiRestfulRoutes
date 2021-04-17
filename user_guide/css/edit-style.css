@@ -1,0 +1,55 @@
+.container {
+	border: 5px solid black;
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding: 0 40px 40px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1{
+	text-align: center;
+}
+input[type='text'], textarea {
+	display: block;
+    background: none;
+    color: black;
+    border: 1px solid teal;
+    padding: 5px 6px;
+    width: 350px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+input[type='text']:focus, textarea:focus{
+    background: none;
+    border: 1px solid teal;
+    color: black;
+    padding: 5px 6px;
+    width: 400px;
+    transition: 0.5s ease;
+}
+input[type='submit'] {
+	display: block;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 8px 20px;
+    box-shadow: 3px 3px #000;
+    background-color: #2b78e4;
+    color: white;
+    cursor: pointer;
+}
+input[type='submit']:hover {
+    transform: translateY(-0.3em);
+    box-shadow: 4px 4px rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+}
+a {
+    text-decoration: none;
+}
+.error {
+	color: red;
+	text-align: center;
+}

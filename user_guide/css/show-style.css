@@ -1,0 +1,19 @@
+.container {
+	border: 5px solid black;
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding: 0 40px 40px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h1{
+	text-align: center;
+}
+h2 {
+	font-weight: 400;
+}
+a {
+	text-decoration: none;
+}
